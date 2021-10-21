@@ -80,7 +80,7 @@ public class RequestParamController {
     }
 
     @ResponseBody
-    @RequestMapping("/request-param-ㅡ메")
+    @RequestMapping("/request-param-map")
     public String requestParamMap(
             @RequestParam Map<String, Object> paramMap
     ){
